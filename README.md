@@ -12,5 +12,7 @@ Le scan interroge l'url passée en paramètre et suis les redirections HTTP. Si 
 En sortie, une liste CSV avec l'url testé et un indicateur de redirection vers Okta.
 
 Exemple : 
+```
 $ ./isokta.sh https://www.celine.com
 https://www.celine.com, Pas d'Okta
+```
